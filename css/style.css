@@ -1,0 +1,69 @@
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+@font-face {
+  font-family: '20 Kopeek';
+  src: url("../fonts/20Kopeek.woff2") format("woff2"), url("../fonts/20Kopeek.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: '20 Kopeek';
+  src: url("../fonts/20Kopeek-Book.woff2") format("woff2"), url("../fonts/20Kopeek-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+header {
+  z-index: 10; }
+  header nav p {
+    font-family: '20 Kopeek', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF !important; }
+  header nav ul li a {
+    font-family: '20 Kopeek', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF !important; }
+  header nav ul li .phone_border {
+    padding: 7px 30px !important;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px; }
+
+.main_banner {
+  height: 100vh; }
+  .main_banner .item {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center; }
+    .main_banner .item.item_2 {
+      background-image: url("../images/banner_2.jpg"); }
+    .main_banner .item.item_3 {
+      background-image: url("../images/banner_3.jpg"); }
+    .main_banner .item.item_4 {
+      background-image: url("../images/banner_4.jpg"); }
+
+.owl-carousel .owl-nav {
+  display: none; }
+.owl-carousel .owl-dots {
+  display: block;
+  position: absolute;
+  bottom: 70px;
+  left: calc(50% - 200px); }
+  @media screen and (max-width: 992px) {
+    .owl-carousel .owl-dots {
+      display: none; } }
+  .owl-carousel .owl-dots button.owl-dot {
+    background: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    padding: 4px 40px;
+    margin: 0 10px; }
+    .owl-carousel .owl-dots button.owl-dot.active {
+      background: #2B59C3; }
+
+/*# sourceMappingURL=style.css.map */
