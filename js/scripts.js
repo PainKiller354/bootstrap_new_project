@@ -2,7 +2,8 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:0,
-        nav:true,
+        nav:false,
+        dots: false,
         pause: 'false',
         navText: [ '', ' ' ],
         autoplay: true,
